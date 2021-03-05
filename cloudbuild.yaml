@@ -6,5 +6,5 @@ steps:
 availableSecrets:
   secretManager:
     - versionName: "projects/jessie-test-274918/secrets/test-secret/versions/latest"
-    - secretEnv: "SECRET"
+    - env: "SECRET"
 
